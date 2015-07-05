@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/tableLayout1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="Weather Table"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Jun 22"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_column="1"/>
+        <TextView
+            android:text="Jun 23"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+        <TextView
+            android:text="Jun 24"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+        <TextView
+            android:text="Jun 25"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+        <TextView
+            android:text="Jun 26"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Day High"
+            android:textStyle="bold"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="28°F"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="26°F"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="23°F"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="17°F"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="19°F"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Day Low"
+            android:textStyle="bold"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="15°F"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="14°F"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="3°F"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="5°F"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="6°F"/>
+    </TableRow>
+</TableLayout>
